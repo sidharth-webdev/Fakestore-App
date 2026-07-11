@@ -82,7 +82,7 @@ nav label {
 .modal-header h3,
 .modal-header h5 {
   color: #ff6f61;
-  font-weight: 700;
+  font-weight: 700; 
 }
 
 .modal-body table th,
