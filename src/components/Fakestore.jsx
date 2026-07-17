@@ -114,7 +114,7 @@ export function Fakestore() {
       <section className="mt-4 row">
         <nav className="col-2">
           <div>
-            <label className="form-label fw-bold">Select Category</label>
+            <label className="form-label fw-bold">Select Category</label> 
             <div>
               <select onChange={handleCategoryChange} className="form-select">
                 {
