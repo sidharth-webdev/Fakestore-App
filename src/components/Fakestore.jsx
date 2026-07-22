@@ -95,7 +95,7 @@ export function Fakestore() {
                             <img width="50" height="50" src={item.image} alt={item.title} />
                           </td>
                           <td>
-                            <button onClick={() => handleRemoveFromCart(item.id)} className="btn btn-sm btn-danger">
+                            <button onClick={() => handleRemoveFromCart(item.id)} className="btn btn-sm btn-danger"> 
                               Remove
                             </button>
                           </td>
