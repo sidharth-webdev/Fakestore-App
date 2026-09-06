@@ -8,7 +8,7 @@
 /* Header styling */
 header {
   background: #ffffff;
-  border-radius: 8px; 
+  border-radius: 8px;  
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
@@ -20,7 +20,7 @@ header .h3 {
 header a {
   text-decoration: none;
   color: #555;
-  font-weight: 500;
+  font-weight: 500;  
 }
 
 header a:hover {
