@@ -126,7 +126,7 @@ export function Fakestore() {
         </nav>
         <main className="col-10 d-flex flex-wrap overflow-auto" style={{ height: '450px' }}>
           {
-            products.map(product =>
+            products.map(product =>   
               <div key={product.id} className="card m-2 p-2" style={{ width: '200px' }}>
                 <img src={product.image} className="card-img-top" height="120" alt={product.title} />
                 <div className="card-header" style={{ height: '100px' }}>
@@ -150,4 +150,4 @@ export function Fakestore() {
       </section>
     </div>
   );
-}                       
+}                           
