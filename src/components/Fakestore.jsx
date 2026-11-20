@@ -60,7 +60,7 @@ export function Fakestore() {
 
   return (
     <div className="container-fluid">
-      <header className="d-flex bg-light justify-content-between p-2 mt-3">
+      <header className="d-flex bg-light justify-content-between p-2 mt-3"> 
         <div className="h3">Fakestore.</div>
         <div>
           <span> <a>Home</a> </span>
@@ -111,8 +111,8 @@ export function Fakestore() {
         </div>
       </header>
 
-      <section className="mt-4 row">     
-        <nav className="col-2">    
+      <section className="mt-4 row">       
+        <nav className="col-2">     
           <div>
             <label className="form-label fw-bold">Select Category</label> 
             <div>
@@ -150,4 +150,4 @@ export function Fakestore() {
       </section>
     </div>
   );
-}                                
+}                                   
