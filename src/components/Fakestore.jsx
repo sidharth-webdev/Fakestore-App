@@ -60,7 +60,7 @@ export function Fakestore() {
 
   return (
     <div className="container-fluid">
-      <header className="d-flex bg-light justify-content-between p-2 mt-3"> 
+      <header className="d-flex bg-light justify-content-between p-2 mt-3">   
         <div className="h3">Fakestore.</div>
         <div>
           <span> <a>Home</a> </span>
@@ -92,7 +92,7 @@ export function Fakestore() {
                         cartItems.map(item => <tr key={item.id}>
                           <td>{item.title}</td>
                           <td>
-                            <img width="50" height="50" src={item.image} alt={item.title} />  
+                            <img width="50" height="50" src={item.image} alt={item.title} />   
                           </td>
                           <td>
                             <button onClick={() => handleRemoveFromCart(item.id)} className="btn btn-sm btn-danger"> 
@@ -112,7 +112,7 @@ export function Fakestore() {
       </header>
 
       <section className="mt-4 row">       
-        <nav className="col-2">     
+        <nav className="col-2">       
           <div>
             <label className="form-label fw-bold">Select Category</label> 
             <div>
@@ -127,7 +127,7 @@ export function Fakestore() {
         <main className="col-10 d-flex flex-wrap overflow-auto" style={{ height: '450px' }}>
           {
             products.map(product =>   
-              <div key={product.id} className="card m-2 p-2" style={{ width: '200px' }}>
+              <div key={product.id} className="card m-2 p-2" style={{ width: '200px' }}>  
                 <img src={product.image} className="card-img-top" height="120" alt={product.title} />
                 <div className="card-header" style={{ height: '100px' }}>
                   {product.title}
@@ -150,4 +150,4 @@ export function Fakestore() {
       </section>
     </div>
   );
-}                                      
+}                                       
