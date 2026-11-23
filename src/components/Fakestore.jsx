@@ -60,11 +60,11 @@ export function Fakestore() {
 
   return (
     <div className="container-fluid">
-      <header className="d-flex bg-light justify-content-between p-2 mt-3">   
+      <header className="d-flex bg-light justify-content-between p-2 mt-3">     
         <div className="h3">Fakestore.</div>
         <div>
           <span> <a>Home</a> </span>
-          <span className="mx-4"> <a>Electronics</a> </span> 
+          <span className="mx-4"> <a>Electronics</a> </span>   
           <span> <a>Jewelery</a> </span>
         </div>
         <div>
